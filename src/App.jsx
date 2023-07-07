@@ -1,11 +1,11 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import PageLayout from "./pages/PageLayout";
+import Page from "./pages/Page";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PageLayout />} />
+        <Route path="/" element={<Page />} />
       </Routes>
     </BrowserRouter>
   );

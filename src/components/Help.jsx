@@ -1,5 +1,11 @@
+import HelpIcon from "@mui/icons-material/Help";
+
 const Help = () => {
-  return <div>Help</div>;
+  return (
+    <div className="w-full">
+      <HelpIcon fontSize="large" />
+    </div>
+  );
 };
 
 export default Help;
